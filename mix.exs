@@ -43,7 +43,7 @@ defmodule Sorrel.MixProject do
     [
       {:mint, "~> 1.7"},
       {:nimble_pool, "~> 1.1"},
-      {:elixir_exec, github: "cylkdev/elixir_exec"},
+      {:elixir_exec, github: "cylkdev/elixir_exec", branch: "main"},
       {:credo, "~> 1.4", only: [:dev, :test], runtime: false},
       {:blitz_credo_checks, "~> 0.1.5", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 1.4", only: [:dev, :test], runtime: false},
